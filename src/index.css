@@ -96,26 +96,7 @@ main {
 	text-transform: none;
 	margin-bottom: 2rem;
 }
-.person {
-	display: flex;
-	align-items: center;
-	gap: 0.75rem;
-	margin-bottom: 1.5rem;
-}
-.person img {
-	width: 75px;
-	height: 75px;
-	object-fit: cover;
-	border-radius: 50%;
-	box-shadow: var(--light-shadow);
-}
-.person h4 {
-	margin-bottom: 0.25rem;
-}
-.person p {
-	margin-bottom: 0;
-}
-.container button {
+.btn {
 	color: var(--clr-white);
 	width: 100%;
 	border-color: transparent;
@@ -127,4 +108,39 @@ main {
 	border-radius: 0.25rem;
 	outline: 1px solid rgba(138, 160, 242, 0.8);
 	cursor: pointer;
+}
+.person {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	margin-bottom: 1.5rem;
+	padding: 0.25rem 0.5rem;
+	box-shadow: var(--light-shadow);
+}
+.person img {
+	width: 75px;
+	height: 75px;
+	object-fit: cover;
+	border-radius: 50%;
+	box-shadow: var(--light-shadow);
+}
+
+.person h4 {
+	margin-bottom: 0.25rem;
+}
+.person p {
+	margin-bottom: 0;
+}
+
+.info {
+	flex: 3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.remove-btn {
+	width: 30%;
+	font-size: 0.75rem;
+	padding: 0.5rem 0;
 }
