@@ -8,7 +8,7 @@ const List = ({ people, removePerson }) => {
 				return (
 					<article key={id} className='person'>
 						<div className='image-con'>
-							<img src={image} />
+							<img src={image} className='person-img' />
 						</div>
 						<div className='info'>
 							<div>
